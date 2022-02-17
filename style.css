@@ -1,0 +1,138 @@
+/** port url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+**/
+/* Style the navigation bar */
+.navbar {
+    
+    background-color: rgb(5, 5, 5);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    
+  }/*
+  .logo-image{
+    width: 15px;
+    height: 15px;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-top: 16px;
+}/*
+  /* i added this in .navbar  overflow: auto;*/
+  /* Navbar links */
+  
+  .navbar a {
+    text-align: center;
+    padding: 6px;
+    color: white;
+   /* i added this while i was try to make my links be at the center of the navbar help!! background-color: red;*/
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Navbar links on mouse-over */
+  /*.navbar a:hover {
+    background-color: #000;
+  }*/
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        color: #3a3a3a;
+        margin: 0;
+        display: block;      
+}
+#house {
+    margin: 35px 350px;
+    padding: 35px;
+    border-radius: 1px;
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*shadow formed here*/
+    box-shadow: inset 0 0 50px #b4a8a8;
+  
+}
+
+/* i used this to know the box i working on*/
+.start{
+  /* used it to color the box as stated initially background-color: violet;*/
+  color: black;
+  margin: 30px 60px;
+  background: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+/* after noting my box i found this css properties irrelavant for now
+#title {
+    color: black;
+}
+.theman {
+    margin: 30px 60px;
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}*/
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    color: #fff;
+}
+.info {
+    color: #fff;
+}
+.container {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+    /*background-color: brown;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+    */
+}
+.acid{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 1;
+
+}
+
+footer {
+    display: block;
+}
+
