@@ -1,0 +1,97 @@
+nav ul{
+    text-align: center;
+    background-color: #3eb489;
+}
+
+
+nav ul li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 7px;
+    color: white;
+}
+
+.abj{
+    background-color: white;
+    position: relative;
+    right: 400px;
+    color: green;
+   
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+}
+body{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+
+
+}
+main{
+    background-color: rgb(14, 51, 53);
+    
+}
+article{
+    color: beige;
+    text-align: center;
+    margin-top: 170px;
+    text-decoration: solid;
+    font-size: 30px;
+    line-height: 0px;
+    border-left: 1px solid white;
+    padding: 20px;
+
+
+}
+.pg{
+    color: green;
+    font-style: italic;
+    /text-align: center;/
+    margin-top: 0px;
+    font-size: 20px;
+}
+#big{
+    background-color: rgba(14, 51, 53);
+    color: beige;
+    text-align: center;
+    margin-top: 170px;
+    text-decoration: solid;
+    font-size: 25px;
+    line-height: 0px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.he{
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 0;
+}
+section{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+section ul li a{
+    color: aliceblue;
+}
+section li{
+    display: inline-block;  
+    margin: 10px; 
+}
+
+   /* background-color: black;*/
+
+.fa{
+    font-size: 30px;
+    color: aliceblue;
+}
+#us{
+    text-align: center;
+}
+p{
+    display: inline-block;
+    margin: 20px;
